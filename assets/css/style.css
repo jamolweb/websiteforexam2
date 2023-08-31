@@ -21,16 +21,26 @@ hr {
 
 .navbar {
   width: 100%;
-  position: fixed !important;
-  background: #000;
-  z-index: 11111;
-  padding: 20px 20px;
 }
 .navbar .links {
   padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .links ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 .navbar .links .burger-menu {
   display: none;
+}
+.navbar .links span {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 950px) {
